@@ -4,3 +4,146 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
+
+body{
+  background-color: #52240D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #C79033;
+}
+
+.hide{
+  display: none !important;
+}
+
+.container{
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #FFE294;
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+#calc-container h2{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forms-control{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.forms-control label{
+  font-weight: bold;
+  margin-bottom: .6rem;
+  color: #C79033;
+}
+
+.forms-control input{
+  padding: 1rem .5rem;
+}
+
+.action-control{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+button{
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #C76234;
+  border: none;
+  color: #FFE294;
+  cursor: pointer;
+  opacity: .9;
+  flex: 1;
+  border-radius: .5rem;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+#clear-btn{
+  background-color: #52240D;
+}
+
+#result-container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#imc-number{
+  font-size: 2.4rem;
+  margin-bottom: .6rem;
+}
+
+#imc-info{
+  font-size: 1.4rem;
+  color: #C76234;
+}
+
+#result-container h3{
+  margin-top: 1rem;
+  color: #C76234;
+}
+
+#imc-table{
+  margin: 1.5rem 0;
+  font-size: .8rem;
+}
+
+.table-header{
+  font-weight: bold;
+  color: #C76234;
+}
+
+.table-header, .table-data{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #d3a350;
+}
+
+.table-header h4, .table-data p{
+  flex: 1;
+}
+
+.table-header h4:nth-child(3), .table-data p:nth-child(3){
+  max-width: 80px;
+}
+
+#back-btn{
+  align-self: center;
+}
+
+.good{
+  color: #12db34;
+}
+
+.low{
+  color: #dbce12;
+}
+
+.medium{
+  color: #db6212;
+}
+
+.heigh{
+  color: #db1912;
+}
