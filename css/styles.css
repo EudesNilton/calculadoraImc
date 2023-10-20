@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #52240D;
+  background-color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ body{
 .container{
   min-width: 400px;
   min-height: 400px;
-  background-color: #FFE294;
+  background-color: #363636;
   padding: 2rem;
   border-radius: .5rem;
 }
@@ -133,17 +133,17 @@ button:hover{
 }
 
 .good{
-  color: #12db34;
+  color: #00ff2a;
 }
 
 .low{
-  color: #dbce12;
+  color: #f5e505;
 }
 
 .medium{
-  color: #db6212;
+  color: #ff6904;
 }
 
 .heigh{
-  color: #db1912;
+  color: #ff0800;
 }
